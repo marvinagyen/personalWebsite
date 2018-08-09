@@ -5,13 +5,15 @@
 /* https://coolors.co/eae8ff-d8d5db-adacb5-2d3142-b0d7ff */
 
 
-body{
+body {
     margin:0;
-    background-color: darkgrey;
+    background-image: url('https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif');
+    background-size: cover;
     text-align: center;
     display:flex;
     flex-direction: column;
     height:100vh;
+    color: whitesmoke
 }
 
 h1,h2, p{
@@ -78,7 +80,31 @@ p{
     border-bottom:solid 1px var(--accent);
 }
 
-footer{
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a {
+    color: whitesmoke
+}
+
+resume {
+    width: 300px;
+    height: 300px;
+    background-image: url("file_icon.png");
+}
+
+
+/* footer{ 
     margin-top: 50px;
     background-color: var(--primary);
     color: var(--primaryDark);
@@ -87,4 +113,4 @@ footer{
     display:flex;
     justify-content: center;
     align-items: center;
-}
+} */
